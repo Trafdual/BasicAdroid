@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Thêm User"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="Tên"
+        android:id="@+id/edt_tenUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="Tuổi"
+        android:id="@+id/edt_tuoiUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="Giới tính"
+        android:id="@+id/edt_gioitinhUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btn_themUser"
+        android:text="Thêm User"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btn_cancel"
+        android:text="Cancel"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
